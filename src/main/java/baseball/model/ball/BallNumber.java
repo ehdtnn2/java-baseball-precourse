@@ -3,13 +3,13 @@ package baseball.model.ball;
 import java.util.*;
 
 public class BallNumber {
-    static final int BALL_MIN = 1;
-    static final int BALL_MAX = 9;
-    static final int BALL_SIZE = 3;
+    public static final int BALL_MIN = 1;
+    public static final int BALL_MAX = 9;
+    public static final int BALL_SIZE = 3;
 
-    static final String INVALID_RANGE_NUMBER = "1~9가 아닌 숫자가 입력";
-    static final String INVALID_DUPLICATION_NUMBER = "중복된 숫자 존재";
-    static final String INVALID_COUNT_NUMBER = "사용자 입력이 3자리가 아님";
+    public static final String INVALID_RANGE_NUMBER = "1~9가 아닌 숫자가 입력";
+    public static final String INVALID_DUPLICATION_NUMBER = "중복된 숫자 존재";
+    public static final String INVALID_COUNT_NUMBER = "사용자 입력이 3자리가 아님";
 
     private List<Integer> numbers;
 
