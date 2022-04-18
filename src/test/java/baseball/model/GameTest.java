@@ -18,6 +18,7 @@ class GameTest {
         Player defender = new Player(new AutoBallGenerator());
         Player offender = new Player(new AutoBallGenerator());
 
+        //when
         Game game = new Game(offender, defender);
         Hint hint = game.play();
 
